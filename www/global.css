@@ -1,0 +1,108 @@
+/*@import "bourbon";
+
+$accent: #ff4081;
+$primary: #1976d2;*/
+body{
+    margin: 0px;
+
+    padding: 0px;
+    border: 0px;
+    outline: 0px;
+    vertical-align: baseline;
+    background: transparent
+}
+.navigation {
+    background-color: black;
+    width:100%;
+    height: 60px;
+}
+.icons{
+    position: absolute;
+    right: 0px;
+    width: 300px;
+    padding: 10px;
+    float:none;
+}
+.page{
+    border-style: ridge;
+    background: transparent;
+    background-color: #F8F8F8;
+    top: 60px; 
+    left: 227px; 
+    width: 60%; 
+    position: absolute;
+}
+
+h1,h3{
+    color: #bada55;
+    
+}
+.contact{
+    text-align: center;
+}
+.quintus_container{
+    top:200px;
+    left:300px;
+}
+
+.imageDiv{
+    height:230px;
+    width: 230px;
+    float: left;
+}
+
+.profilepic{
+    height:230px;
+    width: 230px;
+}
+
+.intro{
+margin-left: 250px;
+}
+
+.gameHeading{   
+    margin-top: 220px;
+    margin-left: 227px;
+}
+
+.font_5{
+    font: normal normal normal 70px/1.1em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
+    color: #72AB00;
+}
+
+.headerUl { margin: 1px 0 0 0; padding: 0; 
+        font-size: larger;
+        display: inline-block;
+        margin-right: 5px;
+}
+        a {
+            display: inline-block;
+            padding: 30px 20px;
+            color: #bada55;
+            text-decoration: none;
+
+            &:hover {
+                color: darken(#bada55, 20%);
+                background: lighten(#bada55, 30%);
+            }
+
+        }
+        
+        &.current {
+            a {
+               
+                color: #fff;
+                background: $accent;
+            }
+        }
+
+.active {
+                 border-top: solid 7px #bada55;
+            }
+.content {
+    display: inline-block;
+    padding: 20px;
+    background: $accent;
+    
+    img { max-width: 100%; }
+}
