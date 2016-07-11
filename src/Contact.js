@@ -5,9 +5,7 @@ import React from 'react';
 class Contact extends React.Component {
  
  
-  render() {
-    console.log("in contact")
-   
+  render() { 
     var myTextField = document.getElementById('quintus_container');
     if(myTextField){
        myTextField.style.display = "none";

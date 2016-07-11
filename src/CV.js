@@ -12,11 +12,9 @@ class CV extends React.Component {
     if(myTextField){
        myTextField.style.display = "none";
     }
-   
     return (
     <div className='page' dangerouslySetInnerHTML={{__html: __html}}>
-    </div>
-    
+    </div>   
     );
   }
 }
