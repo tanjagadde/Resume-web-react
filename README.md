@@ -11,7 +11,10 @@ Setup
 ```
 npm install
 ```
- 
+npm install webpack -g
+npm i extract-text-webpack-plugin
+npm install style-loader 
+npm install css-loader
  
  
 Compile

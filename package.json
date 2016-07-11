@@ -7,6 +7,7 @@
     "babel-preset-react": "^6.5.0",
     "express": "^4.13.4",
     "history": "^2.0.0",
+    "html-to-react": "^1.0.0",
     "react": "^15.1.0",
     "react-addons-css-transition-group": "^15.0.0",
     "react-dom": "^15.1.0",
@@ -24,5 +25,8 @@
     "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "version": "1.0.0"
+  "version": "1.0.0",
+  "devDependencies": {
+    "html-loader": "^0.4.3"
+  }
 }

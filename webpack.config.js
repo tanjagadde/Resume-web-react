@@ -15,11 +15,17 @@ var config = {
       exclude: /node_modules/,
       loaders: ['babel'],
     }, {
+        test: /\.html$/,
+        loader: "html"
+      },
+      {
       test: /\.css$/,
       exclude: /node_modules/,
       loader: ExtractTextPlugin.extract("style-loader", "css-loader")
     }, ],
-    
+    htmlLoader: {
+    ignoreCustomFragments: [/\{\{.*?}}/]
+  }
   },
   plugins: [
       new ExtractTextPlugin("global.css")
