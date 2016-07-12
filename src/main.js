@@ -21,7 +21,7 @@ const App = React.createClass({
         <ul className='headerUl'>
             <Link to="home" activeClassName="active">Home</Link>
             <Link to="cv" activeClassName="active">CV</Link>
-            <Link to="projects" activeClassName="active">Projects</Link>
+            <Link to="projects" activeClassName="active">Personal Projects</Link>
             <Link to="contact" activeClassName="active">Contact</Link>
         </ul>
         </nav>
@@ -35,12 +35,11 @@ const App = React.createClass({
         </div>
       </div>
       <div className="icons">
-      <ul style={{"list-style": "none"}}>
+      <ul style={{"listStyle": "none"}}>
  
-
-          <li>  <a href="https://www.linkedin.com/in/tanuja-gadde"><img src="./images/lin.png" alt="" width="25" height="25" title="LinkedIn Profile"></img></a></li>
-           <li> <a href="./Tanuja_gadde_resume.pdf"><img src="./images/pdf.png" alt="" width="25" height="25" title="Resume"></img></a></li>
-           <li> <a href="https://github.com/tanjagadde"><img src="./images/github.png" alt="" width="25" height="25" title="Github"></img></a></li>
+          <li>  <a href="http://www.linkedin.com/in/tanuja-gadde"><img src="./images/lin.png" alt="" width="35" height="40" title="LinkedIn Profile"></img></a></li>
+           <li> <a href="./Tanuja_gadde_resume.pdf"><img src="./images/pdf.png" alt="" width="35" height="40" title="Resume"></img></a></li>
+           <li> <a href="http://github.com/tanjagadde"><img src="./images/github.png" alt="" width="35" height="40" title="Github"></img></a></li>
             </ul>
       </div>
       <div className='gameHeading'>

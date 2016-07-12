@@ -15,8 +15,8 @@ class Home extends React.Component {
       <div className='imageDiv'><img className='profilepic' src="./images/MyPic.JPG"/></div>
        <div className ='intro'>
         <h1><span>Hello ,I am Tanuja Gadde </span></h1>
-        <p class="font_8">&nbsp;</p>
-        <p class="font_8">Looking for the opportunity to bring 3+ years experience with programming, technology engineering, server maintenance, critical thinking,
+        <p>&nbsp;</p>
+        <p>Looking for the opportunity to bring 3+ years experience with programming, technology engineering, server maintenance, critical thinking,
          and problem solving skills to a Software Engineer position 
         </p>
         </div>
