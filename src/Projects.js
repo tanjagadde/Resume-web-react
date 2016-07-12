@@ -11,6 +11,10 @@ class Projects extends React.Component {
     if(myTextField){
        myTextField.style.display = "none";
     }
+    var main = document.getElementById('main');
+    if(main){
+       main.style.display = "none";
+    }
     return (
       <div className='page'>
       <div dangerouslySetInnerHTML={{__html: __html}}/>

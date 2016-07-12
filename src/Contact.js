@@ -10,6 +10,10 @@ class Contact extends React.Component {
     if(myTextField){
        myTextField.style.display = "none";
     }
+     var main = document.getElementById('main');
+    if(main){
+       main.style.display = "none";
+    }
     return (
       <div className='page contact'>
       <h1>CONTACT</h1>

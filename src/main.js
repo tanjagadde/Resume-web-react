@@ -2,6 +2,7 @@ import React from 'react'
 import { render } from 'react-dom'
 import { Router, Route, Link, withRouter, useRouterHistory } from 'react-router'
 import { createHistory } from 'history'
+import { RouteTransition } from 'react-router-transition';
 import './global.css'
 import Home from './Home.js'
 import Projects from './Projects.js'
@@ -18,13 +19,13 @@ const App = React.createClass({
       <div className='navigation'>
         <nav>
         <ul className='headerUl'>
-            <Link to="/home" activeClassName="active">Home</Link>
-            <Link to="/cv" activeClassName="active">CV</Link>
-            <Link to="/projects" activeClassName="active">Projects</Link>
-            <Link to="/contact" activeClassName="active">Contact</Link>
+            <Link to="home" activeClassName="active">Home</Link>
+            <Link to="cv" activeClassName="active">CV</Link>
+            <Link to="projects" activeClassName="active">Projects</Link>
+            <Link to="contact" activeClassName="active">Contact</Link>
         </ul>
         </nav>
-         <div id='home' className='page'>
+         <div id='main' className='main'>
       <div className='imageDiv'><img className='profilepic' src="./images/MyPic.JPG"/></div>
        <div className ='intro'>
        <h1>Hello ,I am Tanuja Gadde</h1>
@@ -47,8 +48,15 @@ const App = React.createClass({
         <p>Simple Fun Game, Find 5 Programming Languange Logos ,Click on the Start Game</p>
         </div>
       </div>
-
-        {this.props.children}
+       <RouteTransition
+    pathname={this.props.location.pathname}
+    atEnter={{ opacity: 0.5 }}
+    atLeave={{ opacity: 0 }}
+    atActive={{ opacity: 1 }}
+  >
+    {this.props.children}
+  </RouteTransition>
+   
       </div>
     )
   }
