@@ -36,9 +36,8 @@ const App = React.createClass({
       </div>
       <div className="icons">
       <ul style={{"listStyle": "none"}}>
- 
           <li>  <a href="http://www.linkedin.com/in/tanuja-gadde"><img src="./images/lin.png" alt="" width="35" height="40" title="LinkedIn Profile"></img></a></li>
-           <li> <a href="./Tanuja_gadde_resume.pdf"><img src="./images/pdf.png" alt="" width="35" height="40" title="Resume"></img></a></li>
+           <li> <a href="./Tanuja_Gadde_resume.pdf"><img src="./images/pdf.png" alt="" width="35" height="40" title="Resume"></img></a></li>
            <li> <a href="http://github.com/tanjagadde"><img src="./images/github.png" alt="" width="35" height="40" title="Github"></img></a></li>
             </ul>
       </div>

@@ -11,6 +11,8 @@
     "react": "^15.1.0",
     "react-addons-css-transition-group": "^15.0.0",
     "react-dom": "^15.1.0",
+    "react-encoded-mailto": "0.0.6",
+    "react-mailto": "^0.3.0",
     "react-router": "^2.5.1",
     "react-router-transition": "0.0.5",
     "webpack": "^1.13.1",
