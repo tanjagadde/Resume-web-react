@@ -4,13 +4,18 @@ class Home extends React.Component {
  
  
   render() {
-        var myTextField = document.getElementById('quintus_container');
-        if (myTextField) {
-            myTextField.style.display = "block";
-            myTextField.style.top = "250px";
+
+    var myTextField = document.getElementById('quintus_container');
+    if (myTextField) {
+      myTextField.style.display = "block";
+      myTextField.style.top = "250px";
+    }
+    var main = document.getElementById('gamehead');
+    if(main){
+       main.style.display = "block";
     }
     return (
-        <div>
+
       <div id='home' className='page'> 
       <div className='imageDiv'><img className='profilepic' src="./images/MyPic.JPG"/></div>
        <div className ='intro'>
@@ -20,7 +25,6 @@ class Home extends React.Component {
          and problem solving skills to a Software Engineer position 
         </p>
         </div>
-      </div>
       </div>
 
     );

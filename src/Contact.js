@@ -1,21 +1,22 @@
 import React from 'react';
 import Mailto from 'react-mailto';
-/**
- * A counter button: tap the button to increase the count.
- */
+
 class Contact extends React.Component {
  
  
   render() { 
-    var myTextField = document.getElementById('quintus_container');
-    if(myTextField){
-       myTextField.style.display = "none";
+   
+   var myTextField = document.getElementById('quintus_container');
+    if (myTextField) {
+      myTextField.style.display = "none";
     }
-     var main = document.getElementById('main');
+ var main = document.getElementById('main');
     if(main){
        main.style.display = "none";
     }
+   
     return (
+      <div>
       <div className='page contact'>
       <h1>CONTACT</h1>
       <h4> Tanuja Gadde </h4>
@@ -26,6 +27,8 @@ class Contact extends React.Component {
        <Mailto email="tanujagadde@gmail.com" obfuscate>
        <strong><u>tanujagadde@gmail.com</u></strong>
       </Mailto>    
+      </div>
+      
       </div>
     );
   }

@@ -327,12 +327,12 @@ Q.scene("score", function(stage) {
     }));
 
     container.insert(new Q.UI.Text({
-        x: 10,
-        y: 10,
+        x: 5,
+        y: 5,
         label: stage.options.label
     }));
    
-    container.fit(30);
+    container.fit(20);
 });
 
 Q.load(["boy.png", "computer.png", "java.png", "js.png", "aj.png", "react.png", "alien2.png", "atom.png", "css.png", "eclipse.png", "git.png", "html.png", "mongo.png", "python.png", "sublime.png", "minus.png", "plus.png",

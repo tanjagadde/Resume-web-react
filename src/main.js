@@ -41,11 +41,12 @@ const App = React.createClass({
            <li> <a href="http://github.com/tanjagadde"><img src="./images/github.png" alt="" width="35" height="40" title="Github"></img></a></li>
             </ul>
       </div>
-      <div className='gameHeading'>
+       <div className='gameHeading' id='gamehead'>
         <div><h3>Latest Project </h3>
-        <p>Simple Fun Game, Find 5 Programming Languange Logos ,Click on the Start Game</p>
+        <p>Simple Fun Game, Find 5 Programming Languange Logos ,Click on the Start Game, Use left and right arrows to move the player </p>
         </div>
       </div>
+      
        <RouteTransition
     pathname={this.props.location.pathname}
     atEnter={{ opacity: 0.5 }}

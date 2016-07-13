@@ -2,15 +2,16 @@
 
 $accent: #ff4081;
 $primary: #1976d2;*/
+
 body{
     margin: 0px;
-
     padding: 0px;
     border: 0px;
     outline: 0px;
     vertical-align: baseline;
     background: transparent
 }
+
 
 .navigation {
     background-color: black;
@@ -24,14 +25,65 @@ body{
     padding: 10px;
     float:none;
 }
+.profInfo{
+    background: transparent;
+    left: 227px; 
+    width: 50%; 
+    float:left; 
+    text-align: justify;
+    
+}
+.workInfo{
+    background: transparent;
+    left: 227px; 
+    width: 50%;   
+    float:left; 
+    clear: left;
+    text-align: justify;
+}
+.heading{
+    border-bottom: 2px solid #a6a8ab;
+}
+.skills{
+    background: transparent;
+    left: 391px; 
+    width: 22%; 
+    text-align: justify;
+    margin-left: 232px;
+    position: absolute;
+}
 .page,.main{
     border-style: ridge;
+    border-radius: 25px;
     background: transparent;
     background-color: #f1eded;
     top: 60px; 
     left: 227px; 
     width: 60%; 
     position: absolute;
+}
+.info{
+    background: transparent;
+    left: 227px; 
+    top: 390px; 
+    position: absolute;
+}
+
+.projectBorder{
+    border-bottom: 2px solid #a6a8ab;
+    padding-bottom:20px;
+}
+
+.projectInfo{
+    background: transparent;
+    left: 227px; 
+    width: 60%; 
+    float:left; 
+    text-align: justify;
+    border-bottom: 2px solid #a6a8ab;
+    padding-bottom:20px;
+    top: 260px; 
+position: absolute;
 }
 
 h1,h3{
@@ -47,14 +99,25 @@ h1,h3{
 }
 
 .imageDiv{
-    height:230px;
-    width: 230px;
+    margin:4px;
+    height:200px;
+    width: 200px;
     float: left;
 }
 
+.imageCVDiv{
+    height:330px;
+    width: 330px;
+    float: right;
+}
 .profilepic{
-    height:230px;
-    width: 230px;
+    height:200px;
+    width: 200px;
+}
+
+.iconspic{
+    height:30px;
+    width: 30px;
 }
 
 .intro{
@@ -62,14 +125,10 @@ margin-left: 250px;
 }
 
 .gameHeading{   
-    margin-top: 220px;
+    margin-top: 200px;
     margin-left: 227px;
 }
 
-.font_5{
-    font: normal normal normal 70px/1.1em helvetica-w01-bold,helvetica-w02-bold,helvetica-lt-w10-bold,sans-serif;
-    color: #72AB00;
-}
 
 .headerUl { margin: 1px 0 0 0; padding: 0; 
         font-size: larger;
