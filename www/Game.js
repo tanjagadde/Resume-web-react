@@ -161,7 +161,7 @@ Q.Sprite.extend("Shot1", {
 
 Q.Sprite.extend("Shot", {
     init: function(p) {
-        var goodSpriteArray = ["atom", "git","eclipse","sublime","mongo"];
+        var goodSpriteArray = ["aolmail", "gmail","yahoo","hotmail"];
         var choiceIndex = Math.floor(Math.random() * goodSpriteArray.length)
         this._super(p, {
             sprite: goodSpriteArray[choiceIndex],
@@ -335,8 +335,8 @@ Q.scene("score", function(stage) {
     container.fit(20);
 });
 
-Q.load(["boy.png", "computer.png", "java.png", "js.png", "aj.png", "react.png", "alien2.png", "atom.png", "css.png", "eclipse.png", "git.png", "html.png", "mongo.png", "python.png", "sublime.png", "minus.png", "plus.png",
-    "boy.json", "computer.json", "player.json", "java.json", "js.json", "aj.json", "react.json", "alien.json", "atom.json", "css.json", "eclipse.json", "git.json", "html.json", "mongo.json", "python.json", "sublime.json", "minus.json", "plus.json"
+Q.load(["boy.png", "computer.png", "java.png", "js.png", "aj.png", "react.png", "aolmail.png", "css.png", "gmail.png", "html.png", "hotmail.png", "python.png", "yahoo.png", "minus.png", "plus.png",
+    "boy.json", "computer.json", "player.json", "java.json", "js.json", "aj.json", "react.json", "aolmail.json", "css.json", "gmail.json", "html.json", "hotmail.json", "python.json", "yahoo.json", "minus.json", "plus.json"
 ], function() {
     Q.compileSheets("boy.png", "boy.json");
     Q.compileSheets("computer.png", "computer.json");
@@ -344,15 +344,13 @@ Q.load(["boy.png", "computer.png", "java.png", "js.png", "aj.png", "react.png", 
     Q.compileSheets("js.png", "js.json");
     Q.compileSheets("aj.png", "aj.json");
     Q.compileSheets("react.png", "react.json");
-    Q.compileSheets("alien2.png", "alien.json");
-    Q.compileSheets("atom.png", "atom.json");
+    Q.compileSheets("aolmail.png", "aolmail.json");
     Q.compileSheets("css.png", "css.json");
-    Q.compileSheets("eclipse.png", "eclipse.json");
-    Q.compileSheets("git.png", "git.json");
+    Q.compileSheets("gmail.png", "gmail.json");
     Q.compileSheets("html.png", "html.json");
-    Q.compileSheets("mongo.png", "mongo.json");
+    Q.compileSheets("hotmail.png", "hotmail.json");
     Q.compileSheets("python.png", "python.json");
-    Q.compileSheets("sublime.png", "sublime.json");
+    Q.compileSheets("yahoo.png", "yahoo.json");
     Q.compileSheets("plus.png", "plus.json");
     Q.compileSheets("minus.png", "minus.json");
     Q.stageScene("startGame");
