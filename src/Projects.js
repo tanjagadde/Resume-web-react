@@ -45,13 +45,13 @@ class Projects extends React.Component {
         <h3>Chrome Plugin For Youtube:</h3>
         <p><strong>Technology:JavaScript</strong></p>
         <p className='projectBorder'><ul><li>This project is chrome plugin in which user should authorize with a valid gmail account once that is successful.</li>
-       <li> The user can search his favorite subscribed videos based between days he wish to watch</li></ul></p>
+       <li> The user can search his favorite subscribed videos between the days he wish to watch</li></ul></p>
       
 
        
         <h3>PostMan-ShortCut-Node Application::</h3>
         <p><strong>Technology:Node.js ,Javascript</strong></p>
-        <p className='projectBorder'><ul><li>This application is similar to Postman chrome plugin which makes the all the CRUD calls when given the necessary url,payload and header for the request.PostMan-ShortCut,Postman-Shortcut app doesnt require any those url or the payload or any sort of header it builds it for you based on the input command given by the user.</li>
+        <p className='projectBorder'><ul><li>This application is similar to Postman chrome plugin which makes the all the CRUD calls when given the necessary url,payload and header for the request.PostMan-ShortCut,Postman-Shortcut app doesnt require any of those url or the payload or any sort of header it builds it for you based on the input command given by the user.</li>
         <li>Example:Method|CopierIds|Copyids</li></ul></p>
       
 
